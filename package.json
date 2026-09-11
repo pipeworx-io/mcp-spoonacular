@@ -1,18 +1,25 @@
 {
   "name": "@pipeworx/mcp-spoonacular",
   "version": "0.1.0",
-  "description": "Spoonacular food API: recipes, nutrition, ingredients, meal plans. Free 150/day.",
+  "description": "Spoonacular MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-spoonacular": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "spoonacular"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-spoonacular"
+    "url": "git+https://github.com/pipeworx-io/mcp-spoonacular.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
   },
   "devDependencies": {
     "typescript": "^5.7.0"
