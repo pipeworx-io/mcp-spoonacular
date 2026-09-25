@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-spoonacular",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Spoonacular MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-787b9dbc676138eff5864b14ebb389b2074920c2f47860dc36b127b0fab80273",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }
