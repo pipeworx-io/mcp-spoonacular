@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-spoonacular",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Spoonacular MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "spoonacular",
     "gatewaySlug": "spoonacular",
-    "sourceHash": "v1-c63868eb999d914f33f728b45bf4b6a2175fefcf6309e563f5685918571ed002",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-808650eea9ee77947f0965d7e55e4ec130c5aa2385c3ef7e272a33b8526d1b6a",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
